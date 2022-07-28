@@ -2,6 +2,7 @@
  
 int main() {
     int  maior, nota;
+    
     maior = 0;
     while(1){
         scanf("%d", &nota);

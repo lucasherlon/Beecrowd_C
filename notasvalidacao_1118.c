@@ -20,8 +20,6 @@ int main(){
         
         do {printf("novo calculo (1-sim 2-nao)\n");
             scanf("%d", &resp);
-            if (resp==2){
-                break;
             }
        }while(resp!= 1 && resp!=2);
     }

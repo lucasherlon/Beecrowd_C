@@ -9,7 +9,7 @@ int main()
     for(j=0;j<n;j++){
         
         scanf("%d%d", &A, &B);
-        //Algoritmo de Euclides para o MDC
+   
         if(A>=B){
             while(B>0){
                 fig =A%B;

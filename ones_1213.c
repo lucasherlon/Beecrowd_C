@@ -2,10 +2,10 @@
 
 int main(){
 
-    long long int n, cont, um;
-    int i;
+    int n, cont, um, i;
+   
     
-    while(scanf("%lld", &n)!=EOF){
+    while(scanf("%d", &n)!=EOF){
         um=1;
         cont=1;
 
@@ -13,7 +13,7 @@ int main(){
             um = (um*10+1)%n;
             cont++;
         }
-        printf("%lld\n", cont);
+        printf("%d\n", cont);
         
     }
     return 0;

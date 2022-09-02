@@ -4,7 +4,6 @@ int main(){
 
     int n, cont, um, i;
    
-    
     while(scanf("%d", &n)!=EOF){
         um=1;
         cont=1;

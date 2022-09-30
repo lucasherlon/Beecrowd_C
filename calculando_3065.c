@@ -1,7 +1,6 @@
 #include <string.h>
 #include <stdio.h>
 
-
 void parcelas(int n, int vet[]){
     int i;
     
